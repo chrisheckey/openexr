@@ -69,6 +69,7 @@ if (WIN32)
             PREFIX ""
             OUTPUT_NAME "imath" 
             SUFFIX ".pyd"
+            COMPILE_FLAGS "/bigobj"
     )
 else()
     SET_TARGET_PROPERTIES ( imathmodule
